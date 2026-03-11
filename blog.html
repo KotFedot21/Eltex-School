@@ -13,7 +13,7 @@
     </header>
     <nav>
         <ul>
-            <li><a href="../1_task/main.html">Главная</a></li>
+            <li><a href="index.html">Главная</a></li>
             <li><a href="#">Блог</a></li>
         </ul>
     </nav>
@@ -45,11 +45,19 @@
             </article>
         </article>
             <h2>Создать новую статью</h2>
-            <form action="/submit-post" method="POST">
-                <input type="text" id="title" name="title" required placeholder="Заголовок"><br><br>
-                <textarea id="content" name="content" rows="10" cols="30" required placeholder="Текст статьи"></textarea><br><br>
-                <button type="button">Добавить</button>
-            </form>
+            <section>
+                <form action="/submit-post" method="POST">
+                    <div>
+                        <input type="text" id="title" name="title" required placeholder="Заголовок"><br><br>
+                    </div>
+                    <div>
+                        <textarea id="content" name="content" rows="10" cols="30" required placeholder="Текст статьи"></textarea><br><br>
+                    </div>
+                    <div>
+                        <button type="button">Добавить</button>
+                    </div>
+                </form>
+            </section>
     </main>
     <footer>
         <h2>Контакты</h2>
